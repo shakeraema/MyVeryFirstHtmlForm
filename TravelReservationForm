@@ -26,10 +26,10 @@
     Select Tour Package*
     <br/>
     <select name="Place">
-        <option value="Goa">Goa</option>
-        <option value="Mondarmoni">Mondarmoni</option>
-        <option value="Puri">Puri</option>
-        <option value="Darjeeling">Darjeeling</option>
+        <option style="color:brown" value="Goa">Goa</option>
+        <option style="color:darkblue" value="Mondarmoni">Mondarmoni</option>
+        <option style="color:blue" value="Puri">Puri</option>
+        <option style="color:darkgreen" value="Darjeeling">Darjeeling</option>
         
     </select> <!--selecting the place to travel-->
     <br/>
