@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Reservation</title>
 </head>
-<body>
+<body style="background-color:whitesmoke">
     <!--This is starting of the form-->
     <h1>Travel Resevation Form</h1> <!--this is headline-->
     <h3>*Denotes Mandatory</h3> <!--the meaning of using '*' sign-->
@@ -25,7 +25,7 @@
     <br/>
     Select Tour Package*
     <br/>
-    <select name="Place">
+    <select style="background-color:silver;" name="Place">
         <option style="color:brown" value="Goa">Goa</option>
         <option style="color:darkblue" value="Mondarmoni">Mondarmoni</option>
         <option style="color:blue" value="Puri">Puri</option>
