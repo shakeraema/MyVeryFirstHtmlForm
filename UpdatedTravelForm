@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation</title>
+</head>
+<body style="background-color:whitesmoke">
+    <!--This is starting of the form-->
+    <h1>Travel Resevation Form</h1> <!--this is headline-->
+    <h3>*Denotes Mandatory</h3> <!--the meaning of using '*' sign-->
+    <!--This is the starting of the form-->
+   <form action="/action.php">
+    Full name*:
+    <br/>
+    <input style="border:2px solid grey;" type="text" placeholder="FirstName  LastName">
+    <!--name input-->
+    <br/>
+    <br/>
+    Email address*:
+    <br/>
+    <input style="border:2px solid grey;" type="text" placeholder="EMAIL_ADDRESS">
+    <!--email input-->
+    <br/>
+    <br/>
+    Select Tour Package*
+    <br/>
+    <select style="background-color:silver;" name="Place">
+        <option style="color:brown" value="Goa">Goa</option>
+        <option style="color:darkblue" value="Mondarmoni">Mondarmoni</option>
+        <option style="color:blue" value="Puri">Puri</option>
+        <option style="color:darkgreen" value="Darjeeling">Darjeeling</option>
+        
+    </select> <!--selecting the place to travel-->
+    <br/>
+    <br/>
+    Arrival Date*: 
+    <br/>
+    <input style="border:2px solid grey;" type="text" placeholder="m/d/y">
+    <br/>
+    <br/>
+    Number of Persons*: 
+    <br/>
+    <input style="border:2px solid grey;" type="text" placeholder="UNKNOWN_TYPE">
+    <h5>What woud you want to avail?*</h5>
+    <label for="Boarding">
+        Boarding <input type="checkbox" value="Boarding" name="availibity" id="41">
+    </label>
+    <br/>
+    <label for="Fooding">
+        Fooding <input type="checkbox" value="Fooding" name="availibity" id="42">
+    </label>
+    <br/>
+    <label for="Sight seeing">
+        Sight seeing <input type="checkbox" value="Sight seeing" name="availibity" id="43">
+    </label>
+    <br/>
+    Discount Coupon Code:
+    <br/>
+    <input style="border:2px solid grey;" type="password" placeholder="UNKNOWN_TYPE">
+    <br/>
+    <br/>
+    Terms and Conditions*
+    <br/>
+    <label for="30">
+    <input type="radio" value="I agree" name="agreement" id="30">I agree
+</label>
+<label for="31">
+    <input type="radio" value="I disagree" name="agreement" id="31">I disagree
+</label>
+<br/>
+<br/>
+<input style="border:2px solid grey;" type="submit" value="Complete Reservation">   <!--submission button-->
+</form>
+    <footer>
+
+    </footer>
+</body>
+</html>
