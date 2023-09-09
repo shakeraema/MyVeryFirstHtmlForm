@@ -11,19 +11,20 @@
     <h3>*Denotes Mandatory</h3> <!--the meaning of using '*' sign-->
     <!--This is the starting of the form-->
    <form action="/action.php">
-    Full name*:
+    <label for="fname">Full name*:</label>
+    <!--Full name*:-->
     <br/>
     <input style="border:2px solid grey;" type="text" placeholder="FirstName  LastName">
     <!--name input-->
     <br/>
     <br/>
-    Email address*:
+    <label for="email">Email address*:</label>
     <br/>
-    <input style="border:2px solid grey;" type="text" placeholder="EMAIL_ADDRESS">
+    <input style="border:2px solid grey;" type="email" placeholder="EMAIL_ADDRESS">
     <!--email input-->
     <br/>
     <br/>
-    Select Tour Package*
+    <label for="fname">Select Tour Package*</label>
     <br/>
     <select style="background-color:rgb(240, 240, 240);" name="Place">
         <option style="color:brown" value="Goa">Goa</option>
@@ -34,12 +35,12 @@
     </select> <!--selecting the place to travel-->
     <br/>
     <br/>
-    Arrival Date*: 
+    <label for="month" for="Date" for="year" >Arrival Date*:</label> 
     <br/>
-    <input style="border:2px solid grey;" type="text" placeholder="m/d/y">
+    <input style="border:2px solid grey;" size="10" <!--type="month"type="date"type="year"-->
     <br/>
     <br/>
-    Number of Persons*: 
+    <label for="fname">Number of Persons*:</label> 
     <br/>
     <input style="border:2px solid grey;" type="text" placeholder="UNKNOWN_TYPE">
     <h5>What woud you want to avail?*</h5>
@@ -55,12 +56,12 @@
         Sight seeing <input type="checkbox" value="Sight seeing" name="availibity" id="43">
     </label>
     <br/>
-    Discount Coupon Code:
+    <label for="fname">Discount Coupon Code:</label>
     <br/>
-    <input style="border:2px solid grey;" type="password" placeholder="UNKNOWN_TYPE">
+    <input style="border:2px solid grey;" type="hidden" placeholder="UNKNOWN_TYPE">
     <br/>
     <br/>
-    Terms and Conditions*
+    <label for="fname">Terms and Conditions*</label>
     <br/>
     <label for="30">
     <input type="radio" value="I agree" name="agreement" id="30">I agree
